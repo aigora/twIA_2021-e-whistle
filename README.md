@@ -28,7 +28,7 @@ El modelo del micrófono:
 ```
 ## Datos de salida 
 
-Se mostrará la frecuencia del sonido captado junto con la nota musical correspondiente, cabe resaltar que si se superponen musica 
+Se mostrará la frecuencia del sonido captado junto con la nota musical correspondiente en una partitura de máximo 10 notas, cabe resaltar que el programa no leera las frecuencias si estas se superponen ni la duración de las mismas.
 
 ## Bibliografía
 ```
