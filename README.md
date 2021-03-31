@@ -1,10 +1,10 @@
 # [Título del trabajo]
-
-[Descripción breve del proyecto a realizar (2-3 frases).]
+Nuestro proyecto consiste en un dispositivo capaz de captar la frecuencia en la que silba un individuo y posteriormente indicar con que nota musical y con que frecuencia se ha emitido.
 
 ## Integrantes del equipo
+Pablo Crespo Castellanos - Pablo-crespo02 .
+Daniel Fidalgo Millán - Fidalg02 .
 
-[Nombres, apellidos, y usuario GitHub de los integrantes del equipo.]
 
 ## Objetivos del trabajo
 
