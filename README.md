@@ -4,12 +4,20 @@ Nuestro proyecto consiste en un dispositivo capaz de captar la frecuencia en la 
 
 ## Integrantes de grupo
 ```
-1.Pablo Crespo Castellanos - Pablo-crespo02
+1.Pablo Crespo Castellanos         Pablo-crespo02
 ```
 ```
-2.Daniel Fidalgo Millán - Fidalg02
+2.Daniel Fidalgo Millán            Fidalg02
 ```
-
+```
+3.Gonzalo Castro Serrano           Gonzalo7193
+```
+```
+4.Sergio Ballesteros Palomo        Sergius842
+```
+```
+5.César Bobadilla Sojo             Cesar-BS
+```
 ## Objetivos del trabajo
 Este proyecto tiene un propósito simple pero ambicioso, captar un sonido, procesar su frecuencia y devolver el valor de la misma junto con una nota musical si correspondiese.
 Así, podríamos crear partituras a partir de una melodía silbada. A pesar de parecer sencillo tiene como meta ser un programa que ayude a gente con conocimientos músicales reducidos a comprender mejor la música e incluso crear sus propias composiciones.
@@ -25,6 +33,7 @@ La principal libreria de C externa es "Modus - C++ Music Library".
 En este caso coinciden, el dato a analizar por el programa es la frecuencia del sonido que se quiera, que será recogido por un micrófono. 
 El modelo del micrófono:
 ```
+ky038
 ```
 ## Datos de salida 
 
