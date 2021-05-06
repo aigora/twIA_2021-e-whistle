@@ -1,0 +1,102 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcionnormal(float[20]);
+
+int funcionavanzada(float[20]);
+
+
+int main()
+{
+	int opcion, modo, notas[20];
+	float frecuencia[20];
+	printf("\n1.Escuchar\n");
+	printf("\n2.Reproducir melodia anterior\n");
+	printf("\n3.Salir\n");
+	scanf_s("%d", &opcion);
+	switch (opcion)
+	{
+	case 1:
+	 
+		printf("Elija un modo:\n -Avanzado: 1\n -Normal: 2");
+			scanf_s("%d", &modo);
+
+		switch (modo)
+		{
+			case 1:
+				notas[20]=funcionavanzada
+				break;
+				
+			case 2:
+				notas[20]=funcionnormal
+				break;
+		}	
+		break;
+	case 2:
+		printf("B");
+		break;
+	case 3:
+		exit(-1);
+		break;
+	}
+
+}
+
+int funcionavanzada(float[20])
+{
+
+	for (i = 0; i < 20; i++)
+			if (493, 88 < frecuencia[i] > 466,16)
+				notas[i] = 1;
+		if (466,16 <= frecuencia[i] > 440)
+		notas[i] = 2; 
+		if (493, 88 < frecuencia[i] > 466, 16)
+		notas[i] = 3;
+		if (440 < frecuencia[i] > 415,30)
+		notas[i] = 4;
+		if (415,30 < frecuencia[i] > 392)
+		notas[i] = 5; 
+		if (392 < frecuencia[i] > 369,99)
+		notas[i] = 6; 
+		if (369,99 < frecuencia[i] > 349,23)
+		notas[i] = 7;
+		if (349,23 < frecuencia[i] > 329,63)
+			notas[i] = 8;
+		if (329,63 < frecuencia[i] > 311,13)
+			notas[i] = 9;
+		if (311,13 < frecuencia[i] > 293,66)
+			notas[i] = 10; 
+		if (293,66 < frecuencia[i] > 277,18)
+			notas[i] = 11; 
+		if (277,18 < frecuencia[i] > 261,63)
+			notas[i] = 12;
+		if (261, 63 < frecuencia[i] >= 246, 94)
+			notas[i] = 13; 
+		if (frecuencia[i] > 466, 16 || frecuencia [i] < 261, 63)
+			notas[i] = 0;
+
+		//Printf partitura de modus c++, falta encontrar la biblioteca
+}
+
+
+int funcionnormal(float[20])
+{
+	if (493, 88 <= frecuencia[i] > 440)
+		notas[i] = 1;
+	if (440 < frecuencia[i] > 392)
+		notas[i] = 2; 
+	if (392 < frecuencia[i] > 349)
+		notas[i] = 3;
+	if (349 < frecuencia[i] > 329)
+		notas[i] = 4;
+	if (329 < frecuencia[i] >293,63)
+		notas[i] = 5;
+	if (293,63< frecuencia[i] > 261,63)
+		notas[i] = 6;
+	if (261,63 < frecuencia[i] >= 246,94)
+		notas[i] = 7;
+	if (frecuencia[i] > 493, 88 || frecuencia[i] < 246, 94)
+		notas[i] = 0;
+
+	//Printf partitura de modus c++, falta encontrar la biblioteca
+}
